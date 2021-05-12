@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: blanchedalmond;
+}
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
+    font-size: 120px;
+    font-weight: 500;
+    color: #222;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #222;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 0.3em;
+}
+
+.reset {
+    margin-right: 15px;
+    margin-left: 15px;
+}
